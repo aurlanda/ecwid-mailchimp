@@ -21,7 +21,7 @@ import com.ecwid.mailchimp.method.v2_0.lists.MemberInfoData;
 public class OpenedInfoData extends MailChimpObject {
 	
 	@Field
-	MemberInfoData member;
+	public MemberInfoData member;
 	
 	@Field
 	public Integer opens;
