@@ -10,7 +10,7 @@ import com.ecwid.mailchimp.method.v2_0.lists.DummyResult;
  * @author Judy Ng <judy@spiekerpoint.com>
  */
 @MailChimpMethod.Method(name = "reports/opened", version = MailChimpAPIVersion.v2_0)
-public class OpenedMethod extends MailChimpMethod<DummyResult> {
+public class OpenedMethod extends MailChimpMethod<OpenedResult> {
 	
 	@Field
 	public String cid;
