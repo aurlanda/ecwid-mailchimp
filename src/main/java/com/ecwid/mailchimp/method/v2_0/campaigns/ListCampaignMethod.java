@@ -7,7 +7,7 @@ import com.ecwid.mailchimp.MailChimpMethod;
 import com.ecwid.mailchimp.MailChimpObject;
 
 @MailChimpMethod.Method(name = "campaigns/list", version = MailChimpAPIVersion.v2_0)
-public class ListMethod extends MailChimpMethod<ListMethodResult> {
+public class ListCampaignMethod extends MailChimpMethod<ListCampaignMethodResult> {
 	@Field
     public Filters filters;
 

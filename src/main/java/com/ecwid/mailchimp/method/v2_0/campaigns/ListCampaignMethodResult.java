@@ -21,9 +21,9 @@ import java.util.List;
 import com.ecwid.mailchimp.MailChimpObject;
 
 /**
- * result of the lists/list operation including valid data and any errors
+ * result of the campaigns/list operation including valid data and any errors
  */
-public class ListMethodResult extends MailChimpObject {
+public class ListCampaignMethodResult extends MailChimpObject {
 
     @Field
     public Integer total;
